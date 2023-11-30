@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15.2
+    container_name: tpu-db-postgres
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_DB: 'tpu-db-1'
+      POSTGRES_PASSWORD: 'postgres'
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./setup:/docker-entrypoint-initdb.d
+      - ./backup:/backup
