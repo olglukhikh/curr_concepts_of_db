@@ -18,3 +18,10 @@
 ![Объект JSONB](https://i.imgur.com/dRpqYYp.png)
 ### Сущность имеет атрибут типа JSONB
 ![Атрибут типа JSONB](https://i.imgur.com/cGNP5IF.png)
+### Остальные таблицы БД
+#### Таблица operation_types
+![operation_types](https://i.imgur.com/hKkt83u.png)
+#### Таблица account_types
+![account_types](https://i.imgur.com/OOZ0bSE.png)
+#### Таблица accounts
+![accounts](https://i.imgur.com/EDDxNCg.png)
