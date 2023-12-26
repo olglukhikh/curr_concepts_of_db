@@ -101,6 +101,9 @@ https://docs.arenadata.io/ru/ADPG/current/how-to/queries/join.html
 ![pg_stat_statements](https://i.imgur.com/iuE2Gzc.png)
 
 ### Соединения
+Для выполнения запросов с соединениями была скачана и развернута тестовая БД "DVD Rental Store".
+#### Схема таблиц БД:
+![Схема БД](https://i.imgur.com/jDiCxbL.png)
 #### Естественное соединение (INNER JOIN)
 ![inner_join](https://i.imgur.com/3bqCumA.png)
 #### Внешнее соединение (LEFT OUTER JOIN)
